@@ -1,0 +1,136 @@
+window.WEDDING_CONFIG = {
+  theme: {
+    background: '#7A0014',
+    gateGradient: 'linear-gradient(to bottom right, #710001, #5a0001, #450001)',
+    primary: '#FFBE89',
+    secondary: '#D4AF37'
+  },
+
+  /* ================= CÔ DÂU - CHÚ RỂ ================= */
+  couple: {
+    groomShort: 'Nguyễn Cường',
+    groomUpper: 'NGUYỄN CƯỜNG',
+    groomFull: 'Nguyễn Văn Cường',
+    groomBirthOrder: 'ÚT NAM',
+
+    brideShort: 'Hoàng Uyên',
+    brideUpper: 'HOÀNG UYÊN',
+    brideFull: 'Hoàng Thị Uyên',
+    brideBirthOrder: 'TRƯỞNG NỮ'
+  },
+
+  /* ================= GIA ĐÌNH ================= */
+  families: {
+    groom: {
+      sideTitle: 'NHÀ TRAI',
+      parentTitle: 'Ông Bà',
+      father: 'Nguyễn Văn Hùng',
+      mother: 'Lê Thị Thu',
+      address: '45 Phố Huế, Hai Bà Trưng, Hà Nội',
+      // Nếu muốn bấm vào địa chỉ để mở Google Maps thì dán link vào đây.
+      mapUrl: 'https://www.google.com/maps/search/?api=1&query=45+Pho+Hue+Hai+Ba+Trung+Ha+Noi'
+    },
+    bride: {
+      sideTitle: 'NHÀ GÁI',
+      parentTitle: 'Ông Bà',
+      father: 'Trần Văn Long',
+      mother: 'Phạm Thị Hoa',
+      address: '12 Nguyễn Trãi, Thanh Xuân, Hà Nội',
+      mapUrl: 'https://www.google.com/maps/search/?api=1&query=12+Nguyen+Trai+Thanh+Xuan+Ha+Noi'
+    }
+  },
+
+  /* ================= BỮA CƠM THÂN MẬT ================= */
+  reception: {
+    date: '2026-07-12',
+    banquetTime: '18:00',
+    guestReceptionTime: '17:30',
+    partyLabel: 'Bữa cơm thân mật được tổ chức vào lúc:',
+    lunar: 'Tức ngày 28 tháng 5 năm Bính Ngọ',
+    venuePrefix: 'Bữa cơm thân mật được tổ chức tại',
+    venue: 'VinPalace Cổ Loa, Đông Hội, Đông Anh, Hà Nội',
+
+    // Google Maps: có thể dán link Google Maps thật vào directionsUrl.
+    directionsUrl: 'https://www.google.com/maps/search/?api=1&query=VinPalace+Co+Loa+Dong+Anh+Ha+Noi',
+    // Embed URL dùng cho iframe bản đồ trên thiệp.
+    mapEmbedUrl: 'https://www.google.com/maps?q=VinPalace%20C%E1%BB%95%20Loa%2C%20%C4%90%C3%B4ng%20Anh%2C%20H%C3%A0%20N%E1%BB%99i&z=15&output=embed'
+  },
+
+  /* ================= ẢNH =================
+     Có thể dùng:
+       - file trong project: assets/photos/hero.jpg
+       - hoặc URL trực tiếp: https://example.com/photo.jpg
+  */
+  images: {
+    hero: 'assets/photos/hero.jpg',
+    gallery: [
+      'assets/photos/gallery-01.jpg',
+      'assets/photos/gallery-02.jpg',
+      'assets/photos/gallery-03.jpg',
+      'assets/photos/gallery-04.jpg',
+      'assets/photos/gallery-05.jpg',
+      'assets/photos/gallery-06.jpg',
+      'assets/photos/gallery-07.jpg',
+      'assets/photos/gallery-08.jpg',
+      'assets/photos/gallery-09.jpg',
+      'assets/photos/gallery-10.jpg'
+    ]
+  },
+
+  /* Asset giao diện. Thường không cần đổi khi chỉ thay thông tin đám cưới. */
+  assets: {
+    chuHy: 'assets/theme/chu-hy.webp',
+    phung: 'assets/theme/phung.webp',
+    rong: 'assets/theme/rong.webp',
+    chimEn: 'assets/theme/chim-en.webp',
+    frame: 'assets/theme/frame.svg',
+    frameTitle: 'assets/theme/frame-title.svg',
+    frameCalendar: 'assets/theme/frame-calendar.webp',
+    giftEnvelope: 'assets/theme/dragon_phoenix_v3.webp'
+  },
+
+  /* ================= NHẠC ================= */
+  music: {
+    title: 'Lễ Đường',
+    artist: 'Kai Đinh',
+    url: 'https://cdn.chungdoi.com/music/le-duong.mp3',
+    startTime: 59,
+    endTime: 249,
+    volume: 0.5
+  },
+
+  /* ================= MỪNG CƯỚI / QR ================= */
+  bankCards: [
+    {
+      role: 'Chú rể',
+      bank: 'BIDV',
+      account: '0399554682',
+      name: 'NGUYỄN CƯỜNG',
+      qr: 'assets/qr/groom.png'
+    },
+    {
+      role: 'Cô dâu',
+      bank: 'Vietcombank',
+      account: '099996586',
+      name: 'HOÀNG UYÊN',
+      qr: 'assets/qr/bride.png'
+    }
+  ],
+
+  /* ================= RSVP GOOGLE SHEETS ================= */
+  rsvp: {
+    provider: 'google-sheets',
+    endpoint: 'PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE',
+    formVersion: 'github-pages-google-sheets-v1'
+  },
+
+  comments: [
+    { name: 'Gia đình cô Lan', message: 'Chúc hai cháu trăm năm hạnh phúc, sớm sinh quý tử!' },
+    { name: 'Bạn thân của cô dâu', message: 'Chúc mừng hai bạn về chung một nhà. Mong hai bạn luôn yêu thương nhau như ngày đầu!' },
+    { name: 'Anh Minh', message: 'Nhìn thiệp mà thấy ấm áp ghê. Chúc đám cưới thật trọn vẹn nhé!' },
+    { name: 'Chị Hương', message: 'Chúc cô dâu chú rể trăm năm hảo hợp, gia đình luôn đầm ấm.' },
+    { name: 'Văn Minh Hân', message: 'Chúc hai vợ chồng trăm năm hạnh phúc, răng long bạc đầu!' }
+  ],
+
+  thankYou: 'Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi!'
+};
