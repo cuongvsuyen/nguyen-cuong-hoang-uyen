@@ -28,7 +28,7 @@ window.WEDDING_CONFIG = {
       mother: 'Lê Thị Tâm',
       address: 'Số 10 Đường Đồng Cạn, Thôn Quản Xá, Xã Thiệu Quang, Tỉnh Thanh Hóa',
       // Nếu muốn bấm vào địa chỉ để mở Google Maps thì dán link vào đây.
-      mapUrl: 'https://www.google.com/maps/search/?api=1&query=45+Pho+Hue+Hai+Ba+Trung+Ha+Noi'
+      mapUrl: 'https://maps.app.goo.gl/e18QqAY323C6eNw88?g_st=ifm'
     },
     bride: {
       sideTitle: 'NHÀ GÁI',
@@ -36,7 +36,7 @@ window.WEDDING_CONFIG = {
       father: 'Hoàng Văn Qúy',
       mother: 'Đinh Thị Hiền',
       address: 'Thôn Hà Thịnh, Xã Văn Chấn, Tỉnh Lào Cai',
-      mapUrl: 'https://www.google.com/maps/search/?api=1&query=12+Nguyen+Trai+Thanh+Xuan+Ha+Noi'
+      mapUrl: 'https://maps.app.goo.gl/N3DvANmp5AZgwFDG9?g_st=ifm'
     }
   },
 
@@ -53,25 +53,25 @@ window.WEDDING_CONFIG = {
     lunar: 'Tức ngày 07 tháng 10 năm Bính Ngọ'
   },
 
-  /* ================= TIỆC CƯỚI ================= */
-  reception: {
-    date: '2026-11-13',
-    banquetTime: '11:00',
-    guestReceptionTime: '09:00',
-    partyLabel: 'Tiệc cưới sẽ diễn ra vào lúc:',
-    lunar: 'Tức ngày 07 tháng 10 năm Bính Ngọ',
-    venuePrefix: 'Tiệc cưới sẽ tổ chức tại',
-    venue: 'TƯ GIA NHÀ TRAI',
+  // /* ================= TIỆC CƯỚI ================= */
+  // reception: {
+  //   date: '2026-11-13',
+  //   banquetTime: '11:00',
+  //   guestReceptionTime: '09:00',
+  //   partyLabel: 'Tiệc cưới sẽ diễn ra vào lúc:',
+  //   lunar: 'Tức ngày 07 tháng 10 năm Bính Ngọ',
+  //   venuePrefix: 'Tiệc cưới sẽ tổ chức tại',
+  //   venue: 'TƯ GIA NHÀ TRAI',
 
-    // Google Maps: có thể dán link Google Maps thật vào directionsUrl.
-    directionsUrl: 'https://www.google.com/maps/search/?api=1&query=VinPalace+Co+Loa+Dong+Anh+Ha+Noi',
-    // Embed URL dùng cho iframe bản đồ trên thiệp.
-    mapEmbedUrl: 'https://www.google.com/maps?q=VinPalace%20C%E1%BB%95%20Loa%2C%20%C4%90%C3%B4ng%20Anh%2C%20H%C3%A0%20N%E1%BB%99i&z=15&output=embed'
-  },
+  //   // Google Maps: có thể dán link Google Maps thật vào directionsUrl.
+  //   directionsUrl: 'https://maps.app.goo.gl/e18QqAY323C6eNw88?g_st=ifm',
+  //   // Embed URL dùng cho iframe bản đồ trên thiệp.
+  //   mapEmbedUrl: 'https://www.google.com/maps?q=19.8935278,105.72425&z=17&output=embed'
+  // },
 
     /* ================= BỮA CƠM THÂN MẬT ================= */
   reception: {
-    date: '2026-07-12',
+    date: '2026-12-11',
     banquetTime: '18:00',
     guestReceptionTime: '17:30',
     partyLabel: 'Diễn ra vào lúc:',
@@ -80,9 +80,9 @@ window.WEDDING_CONFIG = {
     venue: 'VinPalace Cổ Loa, Đông Hội, Đông Anh, Hà Nội',
 
     // Google Maps: có thể dán link Google Maps thật vào directionsUrl.
-    directionsUrl: 'https://www.google.com/maps/search/?api=1&query=VinPalace+Co+Loa+Dong+Anh+Ha+Noi',
+    directionsUrl: 'https://maps.app.goo.gl/e18QqAY323C6eNw88?g_st=ifm',
     // Embed URL dùng cho iframe bản đồ trên thiệp.
-    mapEmbedUrl: 'https://www.google.com/maps?q=VinPalace%20C%E1%BB%95%20Loa%2C%20%C4%90%C3%B4ng%20Anh%2C%20H%C3%A0%20N%E1%BB%99i&z=15&output=embed'
+    mapEmbedUrl: 'https://www.google.com/maps?q=19.8935278,105.72425&z=17&output=embed'
   },
 
   // dresscode: {
